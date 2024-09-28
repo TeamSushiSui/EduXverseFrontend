@@ -1,0 +1,30 @@
+.forYouFavorites-morphism-bg {
+    /* height: 800px; */
+    border: 0px solid #928e8e;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    /* padding-left: 10px; */
+    padding: 10px 50px 30px 50px;
+    margin-bottom: 100px;
+}
+
+.forYouFavorites-morphism-bg h1 {
+    margin: 50px 0 50px 80px;
+    font-family: Montserrat;
+    cursor: pointer;
+    background: linear-gradient(to right, #C0E6FF, #175597, #6b98b6);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.forYouFavorites-morphism-bg div {
+    display: flex;
+    /* margin: 0 20px; */
+    flex-shrink: 0;
+    overflow-x: scroll;
+}
+
+.forYouFavorites-morphism-bg div::-webkit-scrollbar {
+    display: none;
+}
