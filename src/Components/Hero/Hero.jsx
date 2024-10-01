@@ -1,5 +1,6 @@
 import './Hero.css';
 import { Link } from 'react-router-dom';
+import HeroImg from '../../Assets/edu_person_8-removebg-preview.png'
 // import { IoMdArrowDroprightCircle,
 //          IoMdArrowDropleftCircle 
 //        } from "react-icons/io";
@@ -18,6 +19,7 @@ const Hero = () => {
             <p>Ready for an immersive learning, earning <br /> and networking experience on the blockchain?</p>
             <button><Link to={'/'}>Explore</Link></button>
         </div>
+        <img src={HeroImg} alt="" />
     </div>
   )
 }

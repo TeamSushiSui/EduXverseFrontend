@@ -1,30 +1,31 @@
 import { useState } from 'react';
-import './Spaces.css';
+import './EngageCreate.css';
 import { RiAccountCircleFill } from "react-icons/ri";
 import { FaUserFriends } from "react-icons/fa";
 import { spaceInfos, spotsList, topPicks } from '../../utils';
+import Footer from '../Footer/Footer';
 
-const Spaces = () => {
-  const [spacesSpots, setSpacesSpots] = useState('spaces');
+const EngageCreate = () => {
+  const [engageCreate, setEngageCreate] = useState('spaces');
 
   return (
-    <div name='spaces' className="spaces-container">
-      <div className="spaces-morphism-bg">
+    <div className="spaces-container">
+      <div className="forYouFavorites-morphism-bg">
         <h1>
           <span 
             style={{ marginRight: '50px' }} 
-            onClick={() => setSpacesSpots('spaces')}
+            onClick={() => setEngageCreate('spaces')}
           >
-            Spaces
+            Engage
           </span>
           <span 
-            onClick={() => setSpacesSpots('spots')}
+            onClick={() => setEngageCreate('spots')}
           >
-            Spots
+            Create
           </span>
         </h1>
         <div>
-          {spacesSpots === 'spaces'
+          {engageCreate === 'spaces'
             ? spaceInfos.map((spaceInfo) => (
                 <div 
                   className="spaceDesign-container" 
@@ -99,7 +100,7 @@ const Spaces = () => {
               ))}
         </div>
 
-        <h1>Top Picks</h1>
+        <h1>Featured</h1>
         <div>
           {topPicks.map((topPick) => (
             <div
@@ -133,8 +134,9 @@ const Spaces = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
 
-export default Spaces;
+export default EngageCreate;

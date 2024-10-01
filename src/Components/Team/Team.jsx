@@ -8,13 +8,8 @@ const Team = () => {
       <div className='team-members'>
         <div className='team-member'>
             <img src={GeorgeDP} className='member-pics' alt="A team member profile pics" />
-            <h2 className='member-name'>George Junior</h2>
+            <h2 className='member-name'>Blockchain Bard</h2>
             <p className='member-role'>Blockchain developer</p>
-        </div>
-        <div className='team-member'>
-            <img src={RevivalDP} className='member-pics' alt="A team member profile pics" />
-            <h2 className='member-name'>Revival</h2>
-            <p className='member-role'>Community Manager</p>
         </div>
         <div className='team-member'>
             <img src={TeamLeadDP} className='member-pics' alt="A team member profile pics" />
@@ -22,14 +17,24 @@ const Team = () => {
             <p className='member-role'>Team Lead</p>
         </div>
         <div className='team-member'>
-            <img src={AyoSamuelDP} className='member-pics' alt="A team member profile pics" />
-            <h2 className='member-name'>Ayo Samuel</h2>
+            <img src={ProfilePics} className='member-pics' alt="A team member profile pics" />
+            <h2 className='member-name'>404</h2>
             <p className='member-role'>Frontend Developer</p>
+        </div>
+        <div className='team-member'>
+            <img src={RevivalDP} className='member-pics' alt="A team member profile pics" />
+            <h2 className='member-name'>Revival</h2>
+            <p className='member-role'>Community Manager</p>
         </div>
         <div className='team-member'>
             <img src={MichaelObeDP} className='member-pics' alt="A team member profile pics" />
             <h2 className='member-name'>Michael Obe</h2>
             <p className='member-role'>Backend Developer</p>
+        </div>
+        <div className='team-member'>
+            <img src={AyoSamuelDP} className='member-pics' alt="A team member profile pics" />
+            <h2 className='member-name'>Ayo Samuel</h2>
+            <p className='member-role'>Frontend Developer</p>
         </div>
         <div className='team-member'>
             <img src={ProfilePics} className='member-pics' alt="A team member profile pics" />

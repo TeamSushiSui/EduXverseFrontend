@@ -4,7 +4,7 @@ const Navigations  = [
     {
         id: 1,
         name: "Home",
-        url: "/home",
+        url: "/",
     },
     {
         id: 2,
@@ -123,7 +123,7 @@ const spotsList = [
         followers: 1500,
         spaceDescription: "a team of a startup buil...",
         friends: 90,
-        img: 'https://tinyurl.com/58kpvujs'
+        img: 'https://shorturl.at/mx6MN'
     },
     {
         id: 4,
@@ -170,67 +170,68 @@ const spotsList = [
 const topPicks = [
     {
         id: 1,
-        channelName: '@teamsushisui',
-        connects: 1800,
-        channelDescription: "Onboarding young web 3 talents into building th...",
-        commonConnects: 100,
-        img: 'https://tinyurl.com/92t2s3vh'
+        channelName: '@thatchemicalguy',
+        connects: 147,
+        channelDescription: "Teaching real life chemistry and...",
+        commonConnects: 160,
+        img: 'https://i.ibb.co/Dfj2pBM/chem-lab.jpg'
     },
     {
         id: 2,
-        channelName: '@teamsfriendssui',
-        connects: 1200,
-        channelDescription: "Onboarding young web 3 talents into building th...",
-        commonConnects: 86,
-        img: 'https://tinyurl.com/47sj5vys'
+        channelName: '@mystenlab',
+        connects: 1207,
+        channelDescription: " building critical infrastructure to en...",
+        commonConnects: 6,
+        img: 'https://t.ly/9hudi'
     },
     {
         id: 3,
-        channelName: '@teamsparksui',
-        connects: 1500,
+        channelName: '@suioncampus',
+        connects: 1021,
         channelDescription: "Onboarding young web 3 talents into building th...",
-        commonConnects: 90,
-        img: 'https://tinyurl.com/58kpvujs'
+        commonConnects: 10,
+        img: 'https://shorturl.at/0keiO'
     },
     {
         id: 4,
-        channelName: '@teamfreshsui',
-        connects: 1100,
-        channelDescription: "Onboarding young web 3 talents into building th...",
+        channelName: '@vrgamelord',
+        connects: 137,
+        channelDescription: "Building the future of gaming and...",
         commonConnects: 56,
-        img: 'https://tinyurl.com/ycvs44sy'
+        img: 'https://shorturl.at/jATdN'
     },
     {
         id: 5,
-        channelName: '@teamstarksui',
-        connects: 900,
-        channelDescription: "Onboarding young web 3 talents into building th...",
-        commonConnects: 84,
-        img: 'https://tinyurl.com/yc5fypu2'
+        channelName: '@yourfavgal',
+        connects: 1800,
+        channelDescription: "Just your favourite 😊",
+        commonConnects: 174,
+        img: 'https://t.ly/QJIS4'
     },
     {
         id: 6,
-        channelName: '@teambreadsui',
-        connects: 800,
-        channelDescription: "Onboarding young web 3 talents into building th...",
-        commonConnects: 73,
-        img: 'https://tinyurl.com/3xv9bbp5'
+        channelName: '@gamemaster',
+        connects: 93,
+        channelDescription: "Making gaming funnier and more...",
+        commonConnects: 103,
+        img: 'https://shorturl.at/o3Lqd'
     },
     {
         id: 7,
-        channelName: '@teammilksui',
-        connects: 500,
-        channelDescription: "Onboarding young web 3 talents into building th...",
-        commonConnects: 96,
-        img: 'https://tinyurl.com/24p89w7e'
+        channelName: '@activeb',
+        connects: 50,
+        channelDescription: "At ActiveB, we are building a...",
+        commonConnects: 6,
+        img: 'https://t.ly/5MIqH'
     },
     {
         id: 8,
-        channelName: '@teamsuitablesui',
-        connects: 805,
+        channelName: '@chemtalks',
+        connects: 85,
         channelDescription: "Onboarding young web 3 talents into building th...",
-        commonConnects: 49,
-        img: 'https://tinyurl.com/4pnxey39'
+        commonConnects: 9,
+        img: 'https://shorturl.at/9z4A8'
     }
 ]
+
 export { Navigations, spaceInfos, topPicks, spotsList };

@@ -14,7 +14,9 @@ const Navbar = () => {
                 )
               })}
             </ul>
-            <button><Link to={'/'}>Get Started</Link></button>
+            <div> 
+              <button><Link to={'/signup'}>Get Started</Link></button>
+            </div>
         </nav>
     </div>
   )

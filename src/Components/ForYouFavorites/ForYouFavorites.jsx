@@ -6,7 +6,7 @@ import { spaceInfos, spotsList, topPicks } from '../../utils';
 import Footer from '../Footer/Footer';
 
 const ForYouFavorites = () => {
-  const [spacesSpots, setSpacesSpots] = useState('spaces');
+  const [forYouFavorites, setForYouFavorites] = useState('spaces');
 
   return (
     <div className="spaces-container">
@@ -14,18 +14,18 @@ const ForYouFavorites = () => {
         <h1>
           <span 
             style={{ marginRight: '50px' }} 
-            onClick={() => setSpacesSpots('spaces')}
+            onClick={() => setForYouFavorites('spaces')}
           >
             For You
           </span>
           <span 
-            onClick={() => setSpacesSpots('spots')}
+            onClick={() => setForYouFavorites('spots')}
           >
             Favourites
           </span>
         </h1>
         <div>
-          {spacesSpots === 'spaces'
+          {forYouFavorites === 'spaces'
             ? spaceInfos.map((spaceInfo) => (
                 <div 
                   className="spaceDesign-container" 

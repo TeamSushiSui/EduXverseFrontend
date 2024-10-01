@@ -2,8 +2,36 @@
     margin: 0;
     position: relative;
     padding-left: 180px;
+    padding-right: 50px;
     height: 80vh;
     display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(
+      45deg,
+      hsl(211deg 100% 65%) 0%,
+      hsl(210deg 85% 58%) 0%,
+      hsl(207deg 81% 48%) -1%,
+      hsl(205deg 100% 41%) -1%,
+      hsl(207deg 100% 38%) -1%,
+      hsl(208deg 100% 35%) -2%,
+      hsl(210deg 100% 32%) -2%,
+      hsl(212deg 100% 29%) -1%,
+      hsl(215deg 100% 26%) -1%,
+      hsl(217deg 100% 23%) 1%,
+      hsl(220deg 100% 21%) 4%,
+      hsl(224deg 100% 18%) 10%,
+      hsl(0deg 0% 0%) 39%
+    );
+}
+
+.learn-hero-section {
+    margin: 0;
+    position: relative;
+    padding-left: 180px;
+    height: 80vh;
+    display: flex;
+    /* background-image: url('https://my.spline.design/roomgirlworkingcopy-2b56486ffa579217bd596f6e35d77f81/'); */
+    /* justify-content: space-between; */
     background-image: linear-gradient(
       45deg,
       hsl(211deg 100% 65%) 0%,

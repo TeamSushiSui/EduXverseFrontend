@@ -15,6 +15,8 @@ export { default as Wearable } from  '../Components/Wearable/Wearable';
 export { default as Explorer } from  '../Components/Explorer/Explorer';
 export { default as Roadmap } from  '../Components/Roadmap/Roadmap';
 export { default as ForYouFavorites } from '../Components/ForYouFavorites/ForYouFavorites';
+export { default as EngageCreate } from '../Components/EngageCreate/EngageCreate';
+export { default as Signup } from '../../src/Pages/Signup/Signup';
 export { Navigations } from '../utils';
 export { default as Spaces } from '../Components/Spaces/Spaces';
 export { default as Team } from '../Components/Team/Team';

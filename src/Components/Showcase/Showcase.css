@@ -27,6 +27,10 @@
       );
 }
 
+.mini-showcase h1 {
+    padding: 0 100px;
+}
+
 .mini-showcase video {
     border-radius: 20px;
 }

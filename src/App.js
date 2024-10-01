@@ -1,5 +1,5 @@
 import  { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Home, Learn, Earn, Interact } from './Components/index';
+import { Home, Learn, Earn, Interact, Signup } from './Components/index';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
           <Route path="/learn" element={<Learn />} />
           <Route path="/earn" element={<Earn />} />
           <Route path="/interact" element={<Interact />} />
+          <Route path="/signup" element={<Signup />} />
         </Routes>
       </BrowserRouter>
     </div>
