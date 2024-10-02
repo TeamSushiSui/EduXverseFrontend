@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 //     IoMdArrowDropleftCircle
 //   } from "react-icons/io";
   import { ForYouFavorites, Navbar } from '../../src/Components/index';
+  import Imagess from '../Assets/imagess.png'
 
 const Learn = () => {
   return (
@@ -19,6 +20,7 @@ const Learn = () => {
                 <p>Get access to informative and  <br /> interactive learning experiences</p>
                 <button><Link to={'/'}>Explore</Link></button>
             </div>
+            <img style={{marginRight: '50px'}} src={Imagess} alt="" />
         </div>
         <ForYouFavorites />
     </div>

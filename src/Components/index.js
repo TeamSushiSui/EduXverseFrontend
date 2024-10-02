@@ -16,6 +16,7 @@ export { default as Explorer } from  '../Components/Explorer/Explorer';
 export { default as Roadmap } from  '../Components/Roadmap/Roadmap';
 export { default as ForYouFavorites } from '../Components/ForYouFavorites/ForYouFavorites';
 export { default as EngageCreate } from '../Components/EngageCreate/EngageCreate';
+export { default as HowItWorks } from '../Components/HowItWorks/HowItWorks';
 export { default as Signup } from '../../src/Pages/Signup/Signup';
 export { Navigations } from '../utils';
 export { default as Spaces } from '../Components/Spaces/Spaces';
@@ -29,9 +30,11 @@ export { default as LaunchIcon } from '../Assets/icon_launch.png';
 export { default as Showcase }  from './Showcase/Showcase';
 export { default as ThumbsUpImg } from '../Assets/Thumbs_up.png';
 export { default as DottedLine } from '../Assets/dotted_Line.png';
-export { default as GeorgeDP } from '../Assets/GeorgeDP.png'
-export { default as RevivalDP } from '../Assets/RevivalDP.png'
-export { default as TeamLeadDP } from '../Assets/TeamLeadDP.png'
-export { default as AyoSamuelDP } from '../Assets/AyoSamuelDP.png'
-export { default as MichaelObeDP } from '../Assets/MichaelObeDP.png'
-export { default as SuiLogo } from '../Assets/Sui_Logo.png'
+export { default as GeorgeDP } from '../Assets/GeorgeDP.png';
+export { default as RevivalDP } from '../Assets/RevivalDP.png';
+export { default as TeamLeadDP } from '../Assets/TeamLeadDP.png';
+export { default as AyoSamuelDP } from '../Assets/AyoSamuelDP.png';
+export { default as MichaelObeDP } from '../Assets/MichaelObeDP.png';
+export { default as SuiLogo } from '../Assets/Sui_Logo.png';
+export { default as FootIcon } from '../Assets/FootIcon.png';
+export { default as CoinIcon } from '../Assets/CoinIcon.png';
