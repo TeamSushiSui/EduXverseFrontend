@@ -5,7 +5,8 @@ const Showcase = () => {
     <div className='showcase-section'>
         <div className='mini-showcase'>
             <h1>Join a community of learners to learn, earn, and socialize</h1>
-            <iframe src='https://my.spline.design/blockchain-1c7ef541cc038471750d42092d795912/' title='Blockchain' frameborder='0' width='1300px' height='500px'></iframe>
+            {/* The video no wan gree enter nhi o, no vex abeg 🥲😜 */}
+            <video src={require("../../Assets/team-sushi-sui-eduxverse.mp4")} width={750} height={500} controls></video>
         </div>
         <div className='app-functions-container'>
             <div className='app-fuctions-morphism-bg'>

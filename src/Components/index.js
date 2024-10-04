@@ -2,7 +2,6 @@ export { default as Home } from  '../Pages/Home';
 export { default as Earn } from '../Pages/Earn';
 export { default as Connect } from '../Pages/Connect';
 export { default as Learn } from  '../Pages/Learn';
-// import { Profile } from '../Pages/Profile';
 // import { Wallet } from '../Pages/Wallet';
 // import { WalletConnect } from '../Pages/WalletConnect';
 // import { WalletDisconnect } from '../Pages/WalletDisconnect';
