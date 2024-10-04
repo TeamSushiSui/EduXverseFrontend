@@ -17,7 +17,7 @@ const Hero = () => {
             <h1>LEARN, EARN, <br/>NETWORK</h1>
             <p>A Sui Blockchain Revolution.</p>
             <p>Ready for an immersive learning, earning <br /> and networking experience on the blockchain?</p>
-            <button><Link to={'/'}>Explore</Link></button>
+            <button><Link to={'/explore'}>Explore</Link></button>
         </div>
         <img src={HeroImg} alt="" />
     </div>
