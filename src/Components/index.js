@@ -1,6 +1,6 @@
 export { default as Home } from  '../Pages/Home';
 export { default as Earn } from '../Pages/Earn';
-export { default as Interact } from '../Pages/Interact';
+export { default as Connect } from '../Pages/Connect';
 export { default as Learn } from  '../Pages/Learn';
 // import { Profile } from '../Pages/Profile';
 // import { Wallet } from '../Pages/Wallet';
@@ -18,6 +18,7 @@ export { default as ForYouFavorites } from '../Components/ForYouFavorites/ForYou
 export { default as EngageCreate } from '../Components/EngageCreate/EngageCreate';
 export { default as HowItWorks } from '../Components/HowItWorks/HowItWorks';
 export { default as Signup } from '../../src/Pages/Signup/Signup';
+export { default as ConnectInteract } from '../Components/ConnectInteract/ConnectInteract';
 export { Navigations } from '../utils';
 export { default as Spaces } from '../Components/Spaces/Spaces';
 export { default as Team } from '../Components/Team/Team';
@@ -38,3 +39,10 @@ export { default as MichaelObeDP } from '../Assets/MichaelObeDP.png';
 export { default as SuiLogo } from '../Assets/Sui_Logo.png';
 export { default as FootIcon } from '../Assets/FootIcon.png';
 export { default as CoinIcon } from '../Assets/CoinIcon.png';
+export { default as AccProfilePics } from '../Assets/accProfilePics.png';
+export { default as EdxVest } from '../Assets/EdxVest.png';
+export { default as EdxHeadset } from '../Assets/EdxHeadset.png';
+export { default as BlobImg } from '../Assets/BlobImg.png';
+export { default as BlockchainQuizImg } from '../Assets/BlockchainQuizImg.png'
+export { default as Quiz } from '../Pages/Quiz/Quiz';
+export { default as UserPanel } from '../Pages/UserPanel/UserPanel';

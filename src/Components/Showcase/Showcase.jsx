@@ -1,5 +1,4 @@
 import './Showcase.css';
-import miniShowcaseVideo from '../../Assets/Students_1.mp4' 
 import Spline from '@splinetool/react-spline';
 const Showcase = () => {
   return (
