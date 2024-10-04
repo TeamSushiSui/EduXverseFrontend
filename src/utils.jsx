@@ -8,8 +8,8 @@ const Navigations  = [
     },
     {
         id: 2,
-        name: "Features",
-        url: "/features",
+        name: "Explore",
+        url: "/explore",
     },
     {
         id: 3,

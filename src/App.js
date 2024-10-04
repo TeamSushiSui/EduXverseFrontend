@@ -1,5 +1,6 @@
 import  { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Home, Learn, Earn, Connect, Signup, UserPanel, Quiz } from './Components/index';
+import Explore from './Pages/Explore/Explore';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/user/:id" element={<UserPanel />} />
           <Route path="/quiz/:id" element={<Quiz />} />
+          <Route path="/explore" element={<Explore />} />
         </Routes>
       </BrowserRouter>
     </div>
