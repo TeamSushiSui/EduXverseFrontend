@@ -44,5 +44,6 @@ export { default as EdxVest } from '../Assets/EdxVest.png';
 export { default as EdxHeadset } from '../Assets/EdxHeadset.png';
 export { default as BlobImg } from '../Assets/BlobImg.png';
 export { default as BlockchainQuizImg } from '../Assets/BlockchainQuizImg.png'
+export { default as BookMarkFolder } from '../Assets/BookMarkFolder.png'
 export { default as Quiz } from '../Pages/Quiz/Quiz';
 export { default as UserPanel } from '../Pages/UserPanel/UserPanel';

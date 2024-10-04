@@ -101,38 +101,40 @@ const ForYouFavorites = () => {
         </div>
 
         <h1>Blockchain</h1>
-        <div>
-          {topPicks.map((topPick) => (
-            <div
-              className="topPicks-container"
-              key={topPick.id}
-              style={{ backgroundImage: `url(${topPick.img})` }}
-            >
-              <div className="topPicks-container-overlay">
-                <div>
-                  <RiAccountCircleFill className="space-profile-logo" />
+        <a href="/quiz/753688375357">
+          <div style={{textDecoration: 'none', color: '#ffffff'}}>
+            {topPicks.map((topPick) => (
+              <div
+                className="topPicks-container"
+                key={topPick.id}
+                style={{ backgroundImage: `url(${topPick.img})` }}
+              >
+                <div className="topPicks-container-overlay">
                   <div>
-                    <p>{topPick.channelName}</p>
-                    <p>{topPick.connects} connects</p>
+                    <RiAccountCircleFill className="space-profile-logo" />
+                    <div>
+                      <p>{topPick.channelName}</p>
+                      <p>{topPick.connects} connects</p>
+                    </div>
                   </div>
-                </div>
-                <div>
-                  <p>About</p>
-                  <p>
-                    {topPick.channelDescription} See more
-                  </p>
-                </div>
-                <div>
                   <div>
-                    <FaUserFriends />
-                    <p>{topPick.commonConnects} connects in common</p>
+                    <p>About</p>
+                    <p>
+                      {topPick.channelDescription} See more
+                    </p>
                   </div>
-                  <button>Connect</button>
+                  <div>
+                    <div>
+                      <FaUserFriends />
+                      <p>{topPick.commonConnects} connects in common</p>
+                    </div>
+                    <button>Connect</button>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        </a>
 
         <h1>Sciences</h1>
         <div>

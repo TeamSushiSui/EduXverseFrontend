@@ -13,6 +13,11 @@
     font-family: Montserrat;
 }
 
+.quiz a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .text-details {
     display: flex;
     gap: 50px;
@@ -36,11 +41,24 @@
 
 .quiz-text button {
     font-size: 18px;
-    margin-left: 300px;
+    margin-left: 500px;
     margin-top: 30px;
     border-radius: 10px;
     padding: 5px 10px;
     font-family: Inter;
     background-color: #3580EF;
     color: #ffffff;
+    cursor: pointer;
+}
+
+.quiz-text div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 30px;
+}
+
+.quiz-text input[type=radio] {
+    width: 20px;
+    height: 20px;
 }
