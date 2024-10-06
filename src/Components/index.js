@@ -27,6 +27,7 @@ export { default as ProfilePics } from '../Assets/Wallpaper_11.jpg';
 export { default as BuildIcon } from '../Assets/icon _build.png';
 export { default as TestingIcon } from '../Assets/icon_beta_testing.png';
 export { default as LaunchIcon } from '../Assets/icon_launch.png';
+export { default as wisdomODP } from '../Assets/wisdomODP.png';
 export { default as Showcase }  from './Showcase/Showcase';
 export { default as ThumbsUpImg } from '../Assets/Thumbs_up.png';
 export { default as DottedLine } from '../Assets/dotted_Line.png';

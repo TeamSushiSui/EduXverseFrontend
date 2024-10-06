@@ -1,25 +1,27 @@
 import './Signup.css';
-import { FaGoogle } from "react-icons/fa";
+import GoogleLogin from './google'
 import { IoWallet } from "react-icons/io5";
 
+
 const Signup = () => {
-  return (
-    <div className='signup'>
-        <div className='signup-container'>
-            <div className='inner-signup-container'>
-                <div>
-                    <h1>Welcome to EduXverse</h1>
-                    <p>Signup or Login to your account</p>
-                </div>
-                <div>
-                    {/* Kindly write an onlick function for the buttons and make the bankend and the blockchain auth, thanks */}
-                    <button><FaGoogle /> Google</button>
-                    <button><IoWallet /> Connect Wallet</button>
+    return (
+        <div className='signup'>
+            <div className='signup-container'>
+                <div className='inner-signup-container'>
+                    <div>
+                        <h1>Welcome to EduXverse</h1>
+                        <p>Get Started</p>
+                    </div>
+                    <div>
+                        {/* <button><FaGoogle /> Google</button> */}
+                        <GoogleLogin />
+                        <button><IoWallet /> Connect Wallet</button>
+                        {/* <WalletConnect /> */}
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-  )
+    );
 }
 
 export default Signup;
