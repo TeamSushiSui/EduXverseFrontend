@@ -1,6 +1,7 @@
 import './UserPanel.css';
 import { AccProfilePics, BlobImg, EdxHeadset, EdxVest } from '../../Components';
 import { BiEdit } from 'react-icons/bi';
+import { AuthService } from '../../utils/authService.ts';
 
 const UserPanel = () => {
   return (
@@ -23,14 +24,16 @@ const UserPanel = () => {
                 </div>
                 <div className='profile-stat-rate'>
                     <p>5000</p>
+                    <p>10000</p>
                     <p>10</p>
-                    <p>40</p>
-                    <p>7</p>
+                    <p>2</p>
                 </div>
             </div>
         </div>
         <div className='profile-pics-section'>
-            <p style={{textTransform: 'uppercase', fontWeight: 'bold'}}>Mykel.sui</p>
+            <p style={{textTransform: 'uppercase', fontWeight: 'bold'}}>
+            {AuthService.isAuthenticated() ? (AuthService.gmail_address()) : ('Mykel.sui')}
+            </p>
             <div>
                 <img src={ AccProfilePics } alt="" />
                 <div><BiEdit style={{cursor:'pointer', color: '#F05555'}}/><p style={{margin: '0'}}>change</p></div>
