@@ -31,6 +31,8 @@ export { default as wisdomODP } from '../Assets/wisdomODP.png';
 export { default as Showcase }  from './Showcase/Showcase';
 export { default as ThumbsUpImg } from '../Assets/Thumbs_up.png';
 export { default as DottedLine } from '../Assets/dotted_Line.png';
+export { default as companyLogo } from '../Assets/EduXverse-03.png';
+export { default as HeroImg } from '../Assets/Hero Image Design.png';
 export { default as GeorgeDP } from '../Assets/GeorgeDP.png';
 export { default as RevivalDP } from '../Assets/RevivalDPEdit.jpg';
 export { default as IsraelOshozokhaDP } from '../Assets/IsraelOshozokhaDPEdit.jpg';

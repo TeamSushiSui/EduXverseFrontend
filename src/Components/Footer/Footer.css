@@ -27,10 +27,7 @@
     font-family: Roboto;
 }
 
-.subscription p span h1 {
-    font-size: 100px;
-    margin: 0;
-    margin-top: -10px;
+.subscription p span img {
     margin-left: -10px;
 }
 

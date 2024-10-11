@@ -8,7 +8,7 @@ const Connect = () => {
       <Navbar />
         <div className='hero-section'>
             <div className='hero-content'>
-                <h1>Connect and <br/>Interact</h1>
+                <h1>CONNECT AND <br/>INTERACT</h1>
                 <p>Meet with other students across <br />the globe , socialize , interact <br /> and connect </p>
                 <button><Link to={'/'}>Explore</Link></button>
             </div>

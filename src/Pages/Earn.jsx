@@ -13,7 +13,7 @@ const Earn = () => {
 
             {/* Commented the above lines of code out as I think there's no need for the pagination buttons anymore. */}
             <div className='hero-content'>
-                <h1>Earn even while <br/>Learning</h1>
+                <h1>EARN EVEN WHILE <br/>LEARNING</h1>
                 <p>Explore opportunities to earn <br /> on the SUI blockchain through <br /> EduXverse</p>
                 <button><Link to={'/'}>Explore</Link></button>
             </div>
