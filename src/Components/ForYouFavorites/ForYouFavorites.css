@@ -28,3 +28,29 @@
 .forYouFavorites-morphism-bg div::-webkit-scrollbar {
     display: none;
 }
+
+.category-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /* Center content horizontally */
+    margin: 20px 0;
+    /* Adjust margins to align properly with other sections */
+}
+
+.category-container h1 {
+    margin: 50px 0 50px 80px;
+    font-family: Montserrat;
+    cursor: pointer;
+    background: linear-gradient(to right, #C0E6FF, #175597, #6b98b6);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.topPicks-container {
+    width: 100%;
+    /* Make sure this is consistent with the other containers */
+    max-width: 350px;
+    /* You can adjust this value to match the other sections */
+    margin: 0 auto;
+}

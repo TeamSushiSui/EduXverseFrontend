@@ -1,11 +1,11 @@
 import './Footer.css';
-import { SuiLogo } from '../index';
+import { companyLogo, SuiLogo } from '../index';
 
 const Footer = () => {
   return (
     <div className='footer-container'>
       <div className='subscription'>
-        <p>Always stay up to date about <br /> what's happening on <br /> <span><h1>EduXverse</h1></span></p>
+        <p>Always stay up to date about <br /> what's happening on <br /> <span><img src={companyLogo} width={250} height={75} alt="" /></span></p>
         <div>
             <input type="text" placeholder='enter your email'/>
             <button>Subscribe</button>

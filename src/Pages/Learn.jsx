@@ -16,7 +16,7 @@ const Learn = () => {
 
             {/* Commented the above lines of code off as I think there's no need for the pagination buttons anymore. */}
             <div className='hero-content'>
-                <h1>What are you <br/>Learning today?</h1>
+                <h1>WHAT ARE YOU <br/>LEARNING <br />TODAY?</h1>
                 <p>Get access to informative and  <br /> interactive learning experiences</p>
                 <button><Link to={'/'}>Explore</Link></button>
             </div>
